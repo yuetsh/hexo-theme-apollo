@@ -8,11 +8,11 @@
         }
         .post-title > a {
             &::before {
-                content: '[';
+                content: '{\00a0';
                 color: #42b983;
             }
             &::after {
-                content: ']';
+                content: '\00a0}';
                 color: #42b983;
             }
         }
