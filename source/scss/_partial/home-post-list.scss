@@ -6,6 +6,16 @@
         &:last-child {
             border-bottom: 0px;
         }
+        .post-title > a {
+            &::before {
+                content: '[';
+                color: #42b983;
+            }
+            &::after {
+                content: ']';
+                color: #42b983;
+            }
+        }
     }
     .post-content{
         h2, h3, h4, h5, h6 {
